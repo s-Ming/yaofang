@@ -1,0 +1,36 @@
+{
+  "name": "yaofang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-Ming/yaofang.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s-Ming/yaofang/issues"
+  },
+  "homepage": "https://github.com/s-Ming/yaofang#readme",
+  "dependencies": {
+    "apply": "0.0.0",
+    "browser-sync": "^2.26.3",
+    "gulp-browser-sync": "0.0.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-tasks": "0.0.2",
+    "gulp-uglify": "^3.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}

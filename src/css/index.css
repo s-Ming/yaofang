@@ -1,0 +1,203 @@
+.header_top {
+  background: #EEEEEE;
+  width: 100%;
+  min-width: 1200px;
+}
+
+.header_top .container .left {
+  float: left;
+}
+
+.header_top .container .left li {
+  float: left;
+  height: 41px;
+  padding: 10px 10px 0 0;
+  font-size: 14px;
+  position: relative;
+}
+
+.header_top .container .left li s {
+  padding: 0 10px;
+}
+
+.header_top .container .left li .fa-star {
+  color: #F99538;
+}
+
+.header_top .container .left li .fa-qrcode {
+  color: #73D7CC;
+}
+
+.header_top .container .left li .fa-mobile {
+  color: #2ECC8D;
+  font-size: 18px;
+}
+
+.header_top .container .left li .wxbig, .header_top .container .left li .appbig {
+  display: none;
+  position: absolute;
+  left: -80px;
+  top: 41px;
+  border: 1px solid #eee;
+}
+
+.header_top .container .left li .wxbig img, .header_top .container .left li .appbig img {
+  width: 250px;
+}
+
+.header_top .container .left li .wxbig .txt, .header_top .container .left li .appbig .txt {
+  font-size: 14px;
+  text-align: center;
+}
+
+.header_top .container .left li:hover div {
+  display: block;
+}
+
+.header_top .container .right {
+  float: right;
+}
+
+.header_top .container .right li {
+  float: right;
+  position: relative;
+  padding: 10px 10px 0 10px;
+  height: 41px;
+  font-size: 14px;
+}
+
+.header_top .container .right li .other {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 41px;
+  border: 1px solid #eee;
+  border-top: none;
+  width: 402px;
+  font-size: 14px;
+}
+
+.header_top .container .right li .other .item {
+  float: left;
+  width: 200px;
+  height: 100px;
+  padding-left: 10px;
+}
+
+.header_top .container .right li .other .item .h1 {
+  padding: 5px 0;
+}
+
+.header_top .container .right li .other .item a {
+  padding: 5px 0;
+  display: inline-block;
+}
+
+.header_top .container .right li .menu_list {
+  display: none;
+  position: absolute;
+  top: 41px;
+  left: 0;
+  border: 1px solid #eee;
+  border-top: none;
+}
+
+.header_top .container .right li .menu_list a {
+  padding: 5px 5px;
+  display: inline-block;
+}
+
+.header_top .container .right li:hover div {
+  display: block;
+}
+
+.header_top .container .right li:hover {
+  background: #fff;
+}
+
+/* ===============header================ */
+.header .container {
+  padding: 38px 0;
+}
+
+.header .container div {
+  float: left;
+}
+
+.header .container .search {
+  /*width:546px;*/
+  margin: 0 120px;
+}
+
+.header .container .search #search {
+  float: left;
+  border: 2px solid #0CB95F;
+  /*vertical-align: top;*/
+}
+
+.header .container .search #search .opt_list {
+  float: left;
+  height: 40px;
+  overflow: hidden;
+  width: 82px;
+  text-align: center;
+  line-height: 40px;
+  margin: 0;
+}
+
+.header .container .search #search .opt_list li {
+  height: 40px;
+}
+
+.header .container .search #search input {
+  height: 40px;
+  width: 370px;
+  margin: 0;
+}
+
+.header .container .search #search button {
+  height: 40px;
+  width: 82px;
+  margin: 0;
+  background: #0CB95F;
+}
+
+.header .container .search #search .opt_list:hover {
+  overflow: none;
+}
+
+.header .container .search .hot_search {
+  padding-top: 50px;
+}
+
+.header .container .search .hot_search li {
+  float: left;
+  border-right: 1px solid #bbb;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.header .container .search .hot_search li:last-child {
+  border-right: none;
+}
+
+/* =====================nav======================== */
+.nav .container .mainnav li {
+  float: left;
+  padding: 0 40px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.nav .container .mainnav li a {
+  color: #111;
+}
+
+.nav .container .mainnav li:first-child {
+  padding: 0 110px 0 20px;
+  background: #0CB95F;
+}
+
+.nav .container .mainnav li:first-child a {
+  color: #fff;
+}
