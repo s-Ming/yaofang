@@ -109,6 +109,8 @@
 
 .header_top .container .right li:hover div {
   display: block;
+  z-index: 999;
+  background: #fff;
 }
 
 .header_top .container .right li:hover {
@@ -196,8 +198,130 @@
 .nav .container .mainnav li:first-child {
   padding: 0 110px 0 20px;
   background: #0CB95F;
+  position: relative;
 }
 
 .nav .container .mainnav li:first-child a {
-  color: #fff;
+  color: #000;
+}
+
+.nav .container .mainnav li:first-child .catlist {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50px;
+}
+
+.nav .container .mainnav li:first-child .catlist ul.maincat li {
+  background: #fff;
+  width: 100%;
+  color: #000;
+  padding: 0 10px 0 20px;
+  height: 60px;
+  border-bottom: 1px dotted #ccc;
+}
+
+.nav .container .mainnav li:first-child .catlist ul.maincat li h2 {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.nav .container .mainnav li:first-child .catlist ul.maincat li .sub {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.nav .container .mainnav li:first-child .catlist ul.maincat li .subcat {
+  display: none;
+}
+
+.nav .container .mainnav li:first-child .catlist ul.maincat li:hover .subcat {
+  display: block;
+  position: absolute;
+  right: -700px;
+  top: 0;
+  width: 700px;
+  min-height: 400px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+.nav .container .mainnav li:first-child .catlist ul.maincat li:hover .subcat .sitems li {
+  border: none;
+  width: 600px;
+  margin: 0 20px;
+  border-bottom: 1px dotted #ccc;
+}
+
+.nav .container .mainnav li:first-child .catlist ul.maincat li:hover .subcat .sitems li a {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.nav .container .mainnav li:first-child .catlist ul.maincat li:hover .subcat .sitems li a:first-child {
+  color: #000;
+  font-size: 14px;
+  padding: 0 15px 0 0;
+}
+
+.banner .container {
+  padding-left: 226px;
+}
+
+.banner .container .ban {
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.banner .container .ban li img {
+  width: 800px;
+  height: 400px;
+}
+
+.liebiao .container .top .title {
+  padding-top: 30px;
+}
+
+.liebiao .container .top .title .layer {
+  float: left;
+  padding: 5px 10px;
+}
+
+.liebiao .container .top .title h2 {
+  float: left;
+  padding: 5px 10px;
+}
+
+.liebiao .container .top .title .snavs {
+  float: right;
+  padding: 5px 10px;
+}
+
+.liebiao .container .bottom .left {
+  float: left;
+  width: 300px;
+  height: 577px;
+}
+
+.liebiao .container .bottom .right {
+  float: left;
+  width: 890px;
+}
+
+.liebiao .container .bottom .right .hlist2 li {
+  float: left;
+  width: 222px;
+  height: 288px;
+  padding: 20px 0 0 30px;
+}
+
+.liebiao .container .bottom .right .hlist2 li .photo {
+  display: block;
+}
+
+.liebiao .container .bottom .right .hlist2 li .photo img {
+  width: 80%;
 }

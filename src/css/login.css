@@ -1,0 +1,54 @@
+.header .container {
+  width: 1020px;
+  padding: 30px 0;
+}
+
+.header .container .logo {
+  float: left;
+  border-right: 1px solid #ccc;
+}
+
+.header .container .logo a {
+  display: block;
+}
+
+.header .container .login_l {
+  float: left;
+  line-height: 70px;
+  height: 70px;
+  padding: 0 20px;
+  font-size: 26px;
+}
+
+.login .container {
+  width: 1020px;
+}
+
+.login .container .right {
+  float: right;
+}
+
+.login .container .right .form-tab {
+  width: 322px;
+}
+
+.login .container .right .form-tab .tab-item {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.login .container .right .form-tab-wrap .form .item {
+  width: 322px;
+  margin: 10px 0;
+}
+
+.login .container .right .form-tab-wrap .form .item span input {
+  border: 1px solid #ccc;
+  height: 42px;
+  width: 100%;
+}
+
+.gaoliang {
+  background: #ccc;
+}

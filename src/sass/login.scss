@@ -1,0 +1,60 @@
+.header{
+	.container{
+		width:1020px;
+		padding:30px 0;
+		.logo{
+			float:left;
+			border-right:1px solid #ccc;
+			a{
+				display: block;
+				img{
+				}
+			}
+			
+		}
+		.login_l{
+			float:left;
+			line-height: 70px;
+			height: 70px;
+			padding:0 20px;
+			font-size: 26px;
+		}
+	}
+}
+
+
+.login{
+	.container{
+		width:1020px;
+		.right{
+			float:right;
+			.form-tab{
+				width:322px;
+				.tab-item{
+					float:left;
+					width:50%;
+					text-align: center;
+				}
+			}
+			.form-tab-wrap{
+				.form{
+					.item{
+						width:322px;
+						margin:10px 0;
+						span{
+							
+							input{
+								border:1px solid #ccc;
+								height:42px;
+								width:100%;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.gaoliang{
+	background: #ccc;
+}
