@@ -24,9 +24,15 @@
 
 
 .login{
+	background: url('../imgs/index/banner1.jpg');
+	background-position: center top ;
 	.container{
+
 		width:1020px;
 		.right{
+			background:#fff;
+			padding:20px 30px;
+			margin: 20px 0;
 			float:right;
 			.form-tab{
 				width:322px;

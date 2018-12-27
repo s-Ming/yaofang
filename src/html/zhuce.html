@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/zhuce.css">
+
+	<script src="../js/require.js" data-main="../js/login" type="text/javascript"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="container clearfix">
+			<div class="logo">
+				<a href="" class="name" title="药房网商城(网上药店) ">
+					<img src="../imgs/common/logo.jpg" alt="药房网商城是专业网上药店(网上药房),经国家药监局认证合法医药网，药品网购就到药房网商城!">
+				</a>
+			</div>
+			<div class="login_l">
+				用户注册
+			</div>
+			
+		</div>
+	</div>
+
+
+
+	<div class="zhuce">
+		<div class="container clearfix">
+			<ul class="iform">
+				<li class="line"><label>注册信息（必填项）</label></li>
+				<li>
+					<span class="note"><label>*</label>用户名：</span>
+					<span class="bginput">
+						<i class="user"></i>
+						<input name="username" type="text"  class="input_big" errinfo="" info="请输入你的用户名，2-18个字符，只能字母、数字、中/下划线"></span>
+						<span class="oninfo"></span>
+					</li>
+					<li>
+						<span class="note"><label>*</label>登录密码：</span><span class="bginput"><i class="pass"></i><input name="password1" type="password"  class="input_big" errinfo="" info="请输入您的登录密码，6-20位数字和字符组合，两边不能有空符号"></span><span class="oninfo"></span></li>
+					<li>
+						<span class="note"><label>*</label>确认密码：</span><span class="bginput"><i class="pass"></i><input name="password2" type="password"  minlen="6" maxlength="20" class="input_big" errinfo="" info="请输入您的确认密码，6-20位数字和字符组合，必须和密码相等"></span><span class="oninfo"></span></li>
+					<li>
+						<span class="note"><label>*</label>手机号码：</span><span class="bginput"><input  type="text" class="input_big s" errinfo="" store="" info="请输入您的手机号码，11位数字"></span><span class="oninfo"></span></li>
+					
+					<li class="line"><label>个人信息（选填项）</label></li>
+					<li>
+						<span class="note">真实姓名：</span><span class="bginput"><input name="ctl00$ContentPlaceHolder1$RealName" type="text" id="ctl00_ContentPlaceHolder1_RealName" rege="/^([\u4E00-\u9FA5]+|[a-zA-Z]+)$/" maxlen="16" minlen="2" maxlength="60" class="input_big s" check="false" errinfo="" info="请输入您的真实姓名，至少2个字符"></span><span class="oninfo"></span></li>
+					<li>
+						<span class="note">电子邮箱：</span><span class="bginput"><input name="ctl00$ContentPlaceHolder1$txtEmail" type="text" id="ctl00_ContentPlaceHolder1_txtEmail" rege="/^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/" maxlen="100" minlen="6" maxlength="100" class="input_big s" check="false" errinfo="" info=" 请输入您的电子邮箱，格式如：xxx@qq.com，6-100个字符"></span><span class="oninfo"></span></li>
+					<li class="display:none;">
+						<span class="note">固定电话：</span><span class="bginput"><input name="ctl00$ContentPlaceHolder1$phone1" type="text" id="ctl00_ContentPlaceHolder1_phone1" rege="/^[0-9]\d{2,3}$/" maxlen="4" minlen="3" maxlength="4" class="input_big s" check="false" errinfo="" style="width:60px;" par="txt" info="电话区号3或4位数字"></span><span class="oninfo"></span><span class="bginput">&nbsp;&nbsp;- &nbsp;<input name="ctl00$ContentPlaceHolder1$phone2" type="text" id="ctl00_ContentPlaceHolder1_phone2" rege="/^[0-9]\d{6,7}$/" maxlen="8" minlen="7" maxlength="8" class="input_big s" check="false" errinfo="" style="width:175px;" info="电话号码7或8位数字（可选填）"></span><span class="oninfo"></span></li>
+					<li>
+						<span class="note">所在地区：</span><span class="bginput"><input type="hidden" name="ctl00$ContentPlaceHolder1$hf_accountRegionId" id="ctl00_ContentPlaceHolder1_hf_accountRegionId"><select id="accountProvince" class="iselect big" info="请选择您的所在地区" errinfo="" rege="" check="false"><option value="-1">-请选择-</option><option value="40">北京市</option><option value="4821">天津市</option><option value="95">上海市</option><option value="96">重庆市</option><option value="97">黑龙江</option><option value="1265">吉林省</option><option value="1316">辽宁省</option><option value="1377">河北省</option><option value="1525">山西省</option><option value="1633">内蒙古</option><option value="1726">江苏省</option><option value="1792">浙江省</option><option value="1862">安徽省</option><option value="1942">福建省</option><option value="2011">江西省</option><option value="2103">山东省</option><option value="2212">河南省</option><option value="2339">湖北省</option><option value="2418">湖南省</option><option value="2521">广东省</option><option value="2610">广西</option><option value="2700">海南省</option><option value="2721">四川省</option><option value="2882">贵州省</option><option value="2970">云南省</option><option value="3112">西藏</option><option value="3192">陕西省</option><option value="3302">甘肃省</option><option value="3388">青海省</option><option value="3436">宁夏</option><option value="3442">新疆</option></select>&nbsp;&nbsp;<select id="accoutCity" class="iselect big disp"></select>&nbsp;&nbsp;<select id="accountDistrict" class="iselect big disp"></select></span><span class="oninfo"></span><input type="hidden" name="ctl00$ContentPlaceHolder1$hf_lat" id="ctl00_ContentPlaceHolder1_hf_lat"><input type="hidden" name="ctl00$ContentPlaceHolder1$hf_lng" id="ctl00_ContentPlaceHolder1_hf_lng"></li>
+					<li>
+						<span class="note">详细地址：</span><span class="bginput"><input name="ctl00$ContentPlaceHolder1$txtAddress" type="text" id="ctl00_ContentPlaceHolder1_txtAddress" rege="" placeholder="填写详细的街道名及门牌号、楼宇名及房间号" maxlen="128" minlen="1" maxlength="128" class="input_big s" check="false" errinfo="" style="width:440px;background:#fbfbfb;" disabled="disabled" info="请输入完整的详细地址信息，两边不能有空符号"></span><span class="oninfo"></span></li>
+					<li class="license">
+						我同意 <input type="checkbox" name="">
+						<a href="#">《药房网商城入驻用户服务协议》</a></li>
+
+					<li class="op">
+						<button class="denglu">立即注册</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

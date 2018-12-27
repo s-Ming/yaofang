@@ -20,11 +20,19 @@
   font-size: 26px;
 }
 
+.login {
+  background: url("../imgs/index/banner1.jpg");
+  background-position: center top;
+}
+
 .login .container {
   width: 1020px;
 }
 
 .login .container .right {
+  background: #fff;
+  padding: 20px 30px;
+  margin: 20px 0;
   float: right;
 }
 
